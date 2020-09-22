@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/fluxcd/go-git-providers/gitlab"
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitlab"
+	"github.com/dinosk/go-git-providers/gitprovider"
 	gogitlab "github.com/xanzy/go-gitlab"
 )
 

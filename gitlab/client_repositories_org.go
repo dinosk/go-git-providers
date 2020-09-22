@@ -20,7 +20,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider"
 	"github.com/xanzy/go-gitlab"
 )
 

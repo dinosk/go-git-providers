@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider"
 )
 
 func Test_getPermissionFromMap(t *testing.T) {

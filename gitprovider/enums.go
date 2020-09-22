@@ -16,7 +16,7 @@ limitations under the License.
 
 package gitprovider
 
-import "github.com/fluxcd/go-git-providers/validation"
+import "github.com/dinosk/go-git-providers/validation"
 
 // TransportType is an enum specifying the transport type used when cloning a repository.
 type TransportType string

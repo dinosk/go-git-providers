@@ -17,7 +17,7 @@ limitations under the License.
 package gitprovider
 
 import (
-	"github.com/fluxcd/go-git-providers/validation"
+	"github.com/dinosk/go-git-providers/validation"
 )
 
 // MakeRepositoryCreateOptions returns a RepositoryCreateOptions based off the mutator functions

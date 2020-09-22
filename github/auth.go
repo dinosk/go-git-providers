@@ -23,8 +23,8 @@ import (
 	"github.com/google/go-github/v32/github"
 	"golang.org/x/oauth2"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
-	"github.com/fluxcd/go-git-providers/gitprovider/cache"
+	"github.com/dinosk/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider/cache"
 )
 
 const (

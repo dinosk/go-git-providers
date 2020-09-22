@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/fluxcd/go-git-providers/validation"
+	"github.com/dinosk/go-git-providers/validation"
 )
 
 func roundTrippersEqual(a, b ChainableRoundTripperFunc) bool {

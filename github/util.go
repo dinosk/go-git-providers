@@ -23,8 +23,8 @@ import (
 
 	"github.com/google/go-github/v32/github"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
-	"github.com/fluxcd/go-git-providers/validation"
+	"github.com/dinosk/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/validation"
 )
 
 const (

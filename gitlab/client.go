@@ -17,7 +17,7 @@ limitations under the License.
 package gitlab
 
 import (
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider"
 	"github.com/xanzy/go-gitlab"
 )
 

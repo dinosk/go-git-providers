@@ -19,7 +19,7 @@ package gitprovider
 import (
 	"reflect"
 
-	"github.com/fluxcd/go-git-providers/validation"
+	"github.com/dinosk/go-git-providers/validation"
 )
 
 const (

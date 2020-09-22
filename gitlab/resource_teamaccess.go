@@ -21,7 +21,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider"
 )
 
 func newTeamAccess(c *TeamAccessClient, ta gitprovider.TeamAccessInfo) *teamAccess {

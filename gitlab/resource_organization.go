@@ -19,8 +19,8 @@ package gitlab
 import (
 	"github.com/xanzy/go-gitlab"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
-	"github.com/fluxcd/go-git-providers/validation"
+	"github.com/dinosk/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/validation"
 )
 
 func newOrganization(ctx *clientContext, apiObj *gitlab.Group, ref gitprovider.OrganizationRef) *organization {

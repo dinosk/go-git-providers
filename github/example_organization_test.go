@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/fluxcd/go-git-providers/github"
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/github"
+	"github.com/dinosk/go-git-providers/gitprovider"
 	gogithub "github.com/google/go-github/v32/github"
 )
 

@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/fluxcd/go-git-providers/validation"
+	"github.com/dinosk/go-git-providers/validation"
 )
 
 // IdentityType is a typed string for what kind of identity type an IdentityRef is.

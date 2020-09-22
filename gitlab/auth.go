@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
-	"github.com/fluxcd/go-git-providers/gitprovider/cache"
+	"github.com/dinosk/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider/cache"
 	gogitlab "github.com/xanzy/go-gitlab"
 	"golang.org/x/oauth2"
 )

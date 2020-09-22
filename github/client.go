@@ -19,7 +19,7 @@ package github
 import (
 	"github.com/google/go-github/v32/github"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider"
 )
 
 // ProviderID is the provider ID for GitHub.

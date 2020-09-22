@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider"
 	"github.com/google/go-github/v32/github"
 )
 

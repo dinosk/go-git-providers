@@ -19,7 +19,7 @@ package gitlab
 import (
 	"context"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider"
 )
 
 // OrganizationsClient implements the gitprovider.OrganizationsClient interface.

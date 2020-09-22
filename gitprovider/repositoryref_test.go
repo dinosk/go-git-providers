@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fluxcd/go-git-providers/validation"
+	"github.com/dinosk/go-git-providers/validation"
 )
 
 func newOrgRef(domain, org string, subOrgs []string) OrganizationRef {

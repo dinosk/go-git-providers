@@ -33,7 +33,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/xanzy/go-gitlab"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider"
 )
 
 const (

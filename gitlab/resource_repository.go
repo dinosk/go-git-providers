@@ -23,7 +23,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	gogitlab "github.com/xanzy/go-gitlab"
 
-	"github.com/fluxcd/go-git-providers/gitprovider"
+	"github.com/dinosk/go-git-providers/gitprovider"
 )
 
 func newUserProject(ctx *clientContext, apiObj *gogitlab.Project, ref gitprovider.RepositoryRef) *userProject {
