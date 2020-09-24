@@ -139,8 +139,7 @@ var _ = Describe("GitLab Provider", func() {
 	)
 
 	BeforeSuite(func() {
-		// gitlabToken := os.Getenv("GITLAB_TOKEN")
-		gitlabToken := "9ifPpQVzp7BNkGXAVzK7"
+		gitlabToken := os.Getenv("GITLAB_TOKEN")
 		if len(gitlabToken) == 0 {
 			b, err := ioutil.ReadFile(ghTokenFile)
 			if token := string(b); err == nil && len(token) != 0 {
