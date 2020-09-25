@@ -490,6 +490,30 @@ func TestGetCloneURL(t *testing.T) {
 			want:      "ssh://git@my-gitlab.com:6443/luxas/test-org/other/foo-bar",
 		},
 		{
+			name:      "org: ssh",
+			repoinfo:  newOrgRepoRef("my-gitlab.com:6443", "luxas", []string{"test-org", "other"}, "foo-bar"),
+			transport: TransportTypeSSH,
+			want:      "ssh://git@my-gitlab.com:6443/luxas/test-org/other/foo-bar",
+		},
+		{
+			name:      "org: ssh",
+			repoinfo:  newOrgRepoRef("https://my-gitlab.com", "luxas", []string{"test-org", "other"}, "foo-bar"),
+			transport: TransportTypeSSH,
+			want:      "ssh://git@my-gitlab.com/luxas/test-org/other/foo-bar",
+		},
+		{
+			name:      "org: ssh",
+			repoinfo:  newOrgRepoRef("https://my-gitlab.com:6443", "luxas", []string{"test-org", "other"}, "foo-bar"),
+			transport: TransportTypeSSH,
+			want:      "ssh://git@my-gitlab.com:6443/luxas/test-org/other/foo-bar",
+		},
+		{
+			name:      "org: ssh",
+			repoinfo:  newOrgRepoRef("http://my-gitlab.com:6443", "luxas", []string{"test-org", "other"}, "foo-bar"),
+			transport: TransportTypeSSH,
+			want:      "ssh://git@my-gitlab.com:6443/luxas/test-org/other/foo-bar",
+		},
+		{
 			name:      "org: none",
 			repoinfo:  newOrgRepoRef("my-gitlab.com:6443", "luxas", []string{"test-org", "other"}, "foo-bar"),
 			transport: TransportType("random"),
